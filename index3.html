@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .food-boxes {
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 10px;
+            row-gap: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .food-box {
+            height: 350px;
+            width: 100%;
+        }
+        .food-box img {
+            width: 100%;
+            height: 70%;
+            border-radius: 15px;
+        }
+        .food-box-title {
+            margin: 0;
+            padding: 0;
+            margin-left: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bolder;
+        }
+        .food-box-rating {
+            margin: 0;
+            padding: 0;
+            margin-left: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        .checked{
+            color: green;
+        }
+        .food-box-description {
+            margin: 0;
+            padding: 0;
+            margin-left: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px; 
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="food-boxes">
+        <div class="food-box">
+            <img src="img/kahhu katli.jpg" alt="" />
+            <p class="food-box-title">Kajju Katli House</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.4 &#8226;  40-45 mins
+            </p>
+            <p class="food-box-description">
+                Metthai kajju katli....<br />kharji Chowk
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/biryani.jpg" alt="" />
+            <p class="food-box-title">Masala Biryani House</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.8 &#8226;  60-65 mins
+            </p>
+            <p class="food-box-description">
+                Delhi mashur biryani....<br />chandni Chowk
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/dosa.jpg" alt="" />
+            <p class="food-box-title">Dosa House</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.1 &#8226;  40-45 mins
+            </p>
+            <p class="food-box-description">
+                South Indian food ....<br />Bareilly
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/burger.webp" alt="" />
+            <p class="food-box-title">Burger king</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>3.5 &#8226;  30-35 mins
+            </p>
+            <p class="food-box-description">
+                Burger Company ....<br />Bareilly
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/cake.jpg" alt="" />
+            <p class="food-box-title">Cake Museum</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>3.5 &#8226;  30-35 mins
+            </p>
+            <p class="food-box-description">
+                Delish cakes ....<br />Cakes 24
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/chinese.jpg" alt="" />
+            <p class="food-box-title">Chinese Noodles</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>3.5 &#8226;  30-35 mins
+            </p>
+            <p class="food-box-description">
+                Chinese Masala Noodles ....<br />Bareilly
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/momos.jpg" alt="" />
+            <p class="food-box-title">Mominos Momos </p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>3.5 &#8226;  30-35 mins
+            </p>
+            <p class="food-box-description">
+                Harsh Momos wala....<br />Rajendra Nagar
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/choley bature.jpg" alt="" />
+            <p class="food-box-title">Sita Ram Diwan Chand</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.5 &#8226;  30-35 mins
+            </p>
+            <p class="food-box-description">
+                Street Food,North India....<br />Punjabi
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/rawa.jpg" alt="" />
+            <p class="food-box-title">Dosa Coffee</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.5 &#8226;  25-30 mins
+            </p>
+            <p class="food-box-description">
+                South Indian Beveraches....<br />Paschiam vihar
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/kfc.jpg" alt="" />
+            <p class="food-box-title">KFC</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.3 &#8226;  15-20 mins
+            </p>
+            <p class="food-box-description">
+                Wraps,&Rolls,Burger,Fast Food ....<br />Paschim vihar
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/waffle.jpg" alt="" />
+            <p class="food-box-title">The Belgium Waffles Co.</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.5 &#8226;  20-25 mins
+            </p>
+            <p class="food-box-description">
+                Waffles,Deserts, Ice-creams ....<br />Bareilly
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/coldcoffee.jpg" alt="" />
+            <p class="food-box-title">The Chocolate Room</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.5 &#8226;  30-35 mins
+            </p>
+            <p class="food-box-description">
+                Beverages....<br />Raguari Garden
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/buriito.jpg" alt="" />
+            <p class="food-box-title">California Burrito</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.6 &#8226;  35-400 mins
+            </p>
+            <p class="food-box-description">
+                Mexican,Amercian, Salads ....<br />Janakpuri
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/dashi.jpg" alt="" />
+            <p class="food-box-title">Dashi-Dimsum,Sushi-bar</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.4 &#8226;  20-25 mins
+            </p>
+            <p class="food-box-description">
+                Japnese ....<br />Punjab bar
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/dal.jpg" alt="" />
+            <p class="food-box-title">Tite The Dhaba</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.5 &#8226;  15-20 mins
+            </p>
+            <p class="food-box-description">
+                North Indian ....<br />Rajori Garden
+            </p>
+        </div>
+        <div class="food-box">
+            <img src="img/laddu.jpg" alt="" />
+            <p class="food-box-title">Standards Sweets and...</p>
+            <p class="food-box=rating">
+                <span class="fa fa-star checked"></span>4.8 &#8226;  20-30 mins
+            </p>
+            <p class="food-box-description">
+                Deserts Sweets ....<br />Raja Garden
+            </p>
+        </div>
+    </div>
+</body>
+</html>
